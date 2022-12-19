@@ -10,6 +10,8 @@ Test de scan de Qr code
 
 #### Backend
 
+Need Mongodb installed first
+
 ```bash
 
 $ cd /testapp-api
