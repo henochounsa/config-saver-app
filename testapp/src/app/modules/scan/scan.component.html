@@ -1,0 +1,23 @@
+<div>
+
+  <div class="results">
+    <div  *ngIf="qrResultString">
+      <h3>Scan réussie !</h3>
+      <h4>Voici le Résultat (L'Id) : </h4>
+      <strong>{{ qrResultString }}</strong><br/>
+      <small>Vous pouvez copier cet Id pour récupérer les informations liées, <a href="/auth">Ici</a></small><br/>
+      <button mat-icon-button (click)="clearResult()">Cliquez ici pour effacer</button>
+    </div>
+
+  </div>
+
+  <div class="content">
+    <p>Scannez votre code Qr ici : </p>
+    <div class="scanner">
+      <zxing-scanner [formats]="formatsEnabled" (scanSuccess)="onCodeResult($event)"
+        (permissionResponse)="onHasPermission($event)" (camerasFound)="onCamerasFound($event)"></zxing-scanner>
+    </div>
+  </div>
+
+
+</div>

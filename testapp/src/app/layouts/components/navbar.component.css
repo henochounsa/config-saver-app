@@ -1,0 +1,35 @@
+#topnav {
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  background-color: #333;
+
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+.nav-link {
+  display: inline-block;
+  width: 100px;
+  height: 55px;
+
+  color: White;
+
+  /* centering text */
+  text-align: center;    /* horizontally */
+  line-height: 55px;     /* vertically */
+
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: #148aff;
+}
+#logo {
+  width: 120px;
+
+  background-color: RoyalBlue;
+
+  font-weight: bold;
+}

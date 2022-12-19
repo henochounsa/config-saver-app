@@ -1,0 +1,80 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+testapp/dist
+testapp/tmp
+testapp/out-tsc
+testapp/bazel-out
+
+# Node
+testapp/node_modules
+testapp/npm-debug.log
+testapp/yarn-error.log
+
+# IDEs and editors
+testapp/.idea/
+testapp/.project
+testapp/.classpath
+testapp/.c9/
+testapp/*.launch
+testapp/.settings/
+testapp/*.sublime-workspace
+
+# Visual Studio Code
+testapp/.vscode/*
+testapp/!.vscode/settings.json
+testapp/!.vscode/tasks.json
+testapp/!.vscode/launch.json
+testapp/!.vscode/extensions.json
+testapp/.history/*
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+testapp/.DS_Store
+testapp/Thumbs.db
+
+
+# compiled output
+testapp-api/dist
+testapp-api/node_modules
+
+# Logs
+testapp-api/logs
+testapp-api/*.log
+testapp-api/npm-debug.log*
+testapp-api/pnpm-debug.log*
+testapp-api/yarn-debug.log*
+testapp-api/yarn-error.log*
+testapp-api/lerna-debug.log*
+
+# OS
+testapp-api/.DS_Store
+
+# Tests
+testapp-api//coverage
+testapp-api//.nyc_output
+
+# IDEs and editors
+testapp-api//.idea
+testapp-api/.project
+testapp-api/.classpath
+testapp-api/.c9/
+testapp-api/*.launch
+testapp-api/.settings/
+testapp-api/*.sublime-workspace
+
+# IDE - VSCode
+testapp-api/.vscode/*
+testapp-api/!.vscode/settings.json
+testapp-api/!.vscode/tasks.json
+testapp-api/!.vscode/launch.json
+testapp-api/!.vscode/extensions.json

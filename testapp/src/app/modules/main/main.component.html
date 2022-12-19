@@ -1,0 +1,36 @@
+<div>
+  <div>
+    <p class="errorMsg" *ngIf="errorMsg!==null">{{errorMsg}}</p>
+  </div>
+  <div class="card">
+    <h3>Chargez votre fichier Csv ici :</h3>
+    <input type="file" #csvReader name="Upload CSV" id="txtFileUpload" (change)="uploadListener($event)"
+      accept=".csv" />
+ 
+    <div *ngIf="_records.length>0">
+
+      <p>Veuillez selectionner les colonnes qui correcpondent a l'Identifiant et le secret</p>
+
+      <table>
+        <tr>
+          <th *ngFor="let _item of _records[0].split(',');let index = index">
+            <select (change)="selectColumn($event,index)" [value]="cols[index] || 'undefined' ">
+              <option value="undefined">Undefined</option>
+              <option value="id">Id</option>
+              <option value="secret">Secret</option>
+            </select>
+
+          </th>
+        </tr>
+        <tr *ngFor="let record of _records.slice(0, 3);">
+          <td *ngFor="let item of record.split(',')">{{item}}</td>
+        </tr>
+
+      </table>
+
+    </div>
+
+    <button (click)="submitData()">Soumettre</button>
+
+  </div>
+</div>

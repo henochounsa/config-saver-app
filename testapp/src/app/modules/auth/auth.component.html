@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="content">
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <label for="id">Saisissez votre ID ici : </label><br />
+      <input type="text" formControlName="id" placeholder="Tape the Id" />
+      <button type="submit">Soumettre</button>
+    </form>
+
+    <div *ngIf="searchResult!==null && searchResult!==''">
+      <table>
+        <tr>
+          <td *ngFor="let item of searchResult; let index= index;">{{item}}</td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+</div>

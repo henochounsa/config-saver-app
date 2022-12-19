@@ -1,0 +1,32 @@
+.container{
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.results{
+  padding: 20px;
+}
+.results button{
+  margin-top: 20px;
+}
+
+.scanner{
+  height: 600px;
+  width: 600px;
+  overflow: none;
+}
+
+h3{
+  color: #3CB371;
+}
+small
+{
+  margin-top: 10px;
+}
+small a{
+  
+}
