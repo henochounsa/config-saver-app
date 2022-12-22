@@ -1,32 +1,32 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-testapp/dist
-testapp/tmp
-testapp/out-tsc
-testapp/bazel-out
+app/dist
+app/tmp
+app/out-tsc
+app/bazel-out
 
 # Node
-testapp/node_modules
-testapp/npm-debug.log
-testapp/yarn-error.log
+app/node_modules
+app/npm-debug.log
+app/yarn-error.log
 
 # IDEs and editors
-testapp/.idea/
-testapp/.project
-testapp/.classpath
-testapp/.c9/
-testapp/*.launch
-testapp/.settings/
-testapp/*.sublime-workspace
+app/.idea/
+app/.project
+app/.classpath
+app/.c9/
+app/*.launch
+app/.settings/
+app/*.sublime-workspace
 
 # Visual Studio Code
-testapp/.vscode/*
-testapp/!.vscode/settings.json
-testapp/!.vscode/tasks.json
-testapp/!.vscode/launch.json
-testapp/!.vscode/extensions.json
-testapp/.history/*
+app/.vscode/*
+app/!.vscode/settings.json
+app/!.vscode/tasks.json
+app/!.vscode/launch.json
+app/!.vscode/extensions.json
+app/.history/*
 
 # Miscellaneous
 /.angular/cache
@@ -39,42 +39,42 @@ testem.log
 
 # System files
 .DS_Store
-testapp/.DS_Store
-testapp/Thumbs.db
+app/.DS_Store
+app/Thumbs.db
 
 
 # compiled output
-testapp-api/dist
-testapp-api/node_modules
+api/dist
+api/node_modules
 
 # Logs
-testapp-api/logs
-testapp-api/*.log
-testapp-api/npm-debug.log*
-testapp-api/pnpm-debug.log*
-testapp-api/yarn-debug.log*
-testapp-api/yarn-error.log*
-testapp-api/lerna-debug.log*
+api/logs
+api/*.log
+api/npm-debug.log*
+api/pnpm-debug.log*
+api/yarn-debug.log*
+api/yarn-error.log*
+api/lerna-debug.log*
 
 # OS
-testapp-api/.DS_Store
+api/.DS_Store
 
 # Tests
-testapp-api//coverage
-testapp-api//.nyc_output
+api//coverage
+api//.nyc_output
 
 # IDEs and editors
-testapp-api//.idea
-testapp-api/.project
-testapp-api/.classpath
-testapp-api/.c9/
-testapp-api/*.launch
-testapp-api/.settings/
-testapp-api/*.sublime-workspace
+api//.idea
+api/.project
+api/.classpath
+api/.c9/
+api/*.launch
+api/.settings/
+api/*.sublime-workspace
 
 # IDE - VSCode
-testapp-api/.vscode/*
-testapp-api/!.vscode/settings.json
-testapp-api/!.vscode/tasks.json
-testapp-api/!.vscode/launch.json
-testapp-api/!.vscode/extensions.json
+api/.vscode/*
+api/!.vscode/settings.json
+api/!.vscode/tasks.json
+api/!.vscode/launch.json
+api/!.vscode/extensions.json
