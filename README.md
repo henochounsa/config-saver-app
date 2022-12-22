@@ -14,7 +14,7 @@ Need Mongodb installed first
 
 ```bash
 
-$ cd /testapp-api
+$ cd /api
 
 # install dependencies
 $ npm install
@@ -27,13 +27,23 @@ $ npm run start:prod
 
 See the app running at `http://localhost:3000/`
 
+#Docker 
+##Docker dev
+
+$ sudo docker-compose up
+
+#Docker 
+##Docker prod
+
+$ sudo docker-compose up 
+
 ```
 
 #### Frontend
 
 ```bash
 
-$ cd /testapp
+$ cd /app
 
 # install dependencies
 $ ng serve
